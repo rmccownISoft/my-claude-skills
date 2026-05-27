@@ -5,6 +5,26 @@
     "email": "robertmccown2@gmail.com"
   },
   "plugins": [
+      {
+      "name": "enterprise-mcp",
+      "displayName": "ITrack Enterprise",
+      "description": "Skills for the ITrack Enterprise MCP server",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rmccownISoft/test-skills-as-plugin.git",
+        "path": "enterprise"
+      }
+    },
+    {
+      "name": "presage-mcp",
+      "displayName": "ITrack Presage",
+      "description": "Skills for the ITrack Presage Analytics MCP server",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rmccownISoft/test-skills-as-plugin.git",
+        "path": "presage"
+      }
+    },
     {
       "name": "ingest-codex",
       "source": "./plugins/ingest-codex",
